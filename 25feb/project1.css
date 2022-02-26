@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form-body{
+    background-color: #020024;
+    
+}
+.row{
+    margin: 30px;
+}
+
+.card-text{
+    margin: 10px;
+    text-align: center;
+}
+.class-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: #020024;
+}
+.form-info{
+    color: aliceblue;
+}
+.form-information{
+    color: aliceblue;
+    
+    margin-top: 100px;
+}
