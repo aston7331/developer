@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin: 100px;
+    /*background-color:aqua;*/
+    background-image: linear-gradient(180deg, #a6ffff 0, #a2edff 25%, #9dd5f2 50%, #96bed5 75%, #8ea8b9 100%);
+    height: auto;
+}
+.form-image{
+    margin: 100px;
+}
+.sub-body{
+text-align: center;
+}
+.b{
+    text-align: center;
+}
+.form-text{
+    text-align: center;
+    
+}
