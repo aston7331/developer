@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>CALCULATOR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Index.css">
+    <script type="text/javascript" src="Index.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-lg-3 x">
+                <div class="card border my-3 max-auto">
+                    <div class="card-header">
+                        <p>CALCULATOR</p>
+
+                    </div>
+                    <div class="card-body text-primary">
+                        <form>
+                            <div class="col-md-12 my-3">
+                                <input type="number" class="form-control" oninput="calculet()" id="num1"
+                                    placeholder="Enter the first number" autofocus>
+                            </div>
+                            <div class="col-md-12 my-3">
+                                <input type="number" class="form-control" oninput="calculet()"id="num2"
+                                    placeholder="Enter the second number" autofocus>
+                            </div>
+                            <div class="col-md-12 my-3">
+                                <input class="form-control" id="operator" oninput="calculet()" placeholder="Enter the operator"
+                                    autofocus>
+                            </div>
+                            <div class="col-md-12 my-3">
+                                <input class="form-control" name="Number" oninput="calculet()" id="result" placeholder="RESULT" readonly>
+                            </div>
+
+
+
+                            <button type="reset" class="button mx-3 px-5">Reset</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.card-header{
+    text-align: center;
+    text-shadow: 5px 5px 5px red;
+    font-size: 30px;
+    color: #fff;
+    background-image: linear-gradient(to right top, #373737, #413f56, #474876, #495198, #435bbc, #645cc7, #845ad0, #a456d5, #d048b9, #ec439a, #f94c7b, #fb5f5f);
+}
+.form-control{
+    box-shadow: 5px 5px rgb(255, 255, 255);
+}
+.card-border{
+    border: 5px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
+.x{
+    border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
+body{
+    background-image: url("as.jpg");
+    
+}
+.operator{
+    color: rgb(0, 0, 0);
+    background-color: rgb(97, 140, 165);
+    border-radius: 20px 20px;    
+}
+.button{
+    background: rgb(9,121,101);
+    background: linear-gradient(90deg, rgba(9,121,101,0.5550595238095238) 0%, rgba(255,255,255,1) 0%, rgba(217,249,255,1) 4%, rgba(0,212,255,1) 43%, rgba(196,245,255,1) 94%);
+border-radius: 20px 20px;
+}

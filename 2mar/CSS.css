@@ -1,0 +1,8 @@
+span{
+    color: red;
+}
+.message{
+    color: red;
+    padding-top: 20px;
+    display: none;
+}
